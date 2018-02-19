@@ -16,7 +16,7 @@ type ARGs struct {
 	TeamName string `validate:"required"`
 	Hostname string `validate:"required"`
 	Socket   string `validate:"required"`
-	Debug    bool   `validate:"required"`
+	Debug    bool
 	Token    string `validate:"required"`
 	Lang     string `validate:"required"`
 }
